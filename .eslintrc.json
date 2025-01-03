@@ -20,8 +20,19 @@
       "@typescript-eslint",
       "prettier"
     ],
+    "settings": {
+      "import/resolver": {
+        "alias": {
+          "map": [["@", "./src"]],
+         "extensions": [".ts", ".tsx", ".js", ".jsx"]
+        }
+      }
+    },
     "rules": {
-      "prettier/prettier": "error"
+      "prettier/prettier": "error",
+      "import/extensions": "off",
+      // "eslint-plugin-import/no-unresolved": "off",
+      "import/prefer-default-export": "off"
     }
   }
   
