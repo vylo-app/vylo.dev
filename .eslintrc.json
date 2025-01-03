@@ -32,6 +32,7 @@
       "prettier/prettier": "error",
       "import/extensions": "off",
       // "eslint-plugin-import/no-unresolved": "off",
+      "arrow-body-style": "off",
       "import/prefer-default-export": "off"
     }
   }

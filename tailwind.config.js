@@ -55,8 +55,7 @@ export default {
         },
       },
       backgroundImage: {
-        "hero-section-background-gradient":
-          "url(./src/assets/HeroSection/background-gradient.svg)",
+        "hero-section-background-gradient": "url(./src/assets/HeroSection/background-gradient.svg)",
       },
     },
   },
